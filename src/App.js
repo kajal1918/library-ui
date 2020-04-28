@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Library from './components/library';
 import { getLibrary } from './api/LibraryApi';
 import { getBookByLibraryId } from './api/BookApi';

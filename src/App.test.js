@@ -10,7 +10,6 @@ configure({ adapter: new Adapter() });
 jest.mock('./api/LibraryApi');
 
 test('should fetch library', () => {
-  const users = [{name: 'Bob'}];
   const resp = [{library_Id: 1, name: 'name1', type: 'type1'}];
   getLibrary.mockResolvedValue(resp);
 });
